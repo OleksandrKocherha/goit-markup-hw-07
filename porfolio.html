@@ -18,31 +18,37 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="flex-container">
-          <a href="" class="header-logo"><span class="logo-span">Web</span>Studio</a>
+      <div class="container header-container">
+        <div class="logo-wrapper">
+          <a href="" class="logo-wrapper__header-logo"
+            ><span class="logo-wrapper__logo-span">Web</span>Studio</a
+          >
           <nav>
             <ul class="marker-list header-list">
-              <li class="item"><a class="nav-link" href="./index.html">Студия</a></li>
-              <li class="item"><a class="nav-link current" href="">Портфолио</a></li>
-              <li class="item"><a class="nav-link" href="">Контакты</a></li>
+              <li class="marker-list__item">
+                <a class="nav-link" href="./index.html">Студия</a>
+              </li>
+              <li class="marker-list__item">
+                <a class="nav-link current" href="">Портфолио</a>
+              </li>
+              <li class="marker-list__item"><a class="nav-link" href="">Контакты</a></li>
             </ul>
           </nav>
           <ul class="marker-list header-list-contact">
-            <li class="contact-item">
+            <li class="marker-list__contact-item">
               <a class="contact-link" href="mailto:info@devstudio.com">
-                <svg class="icon-header-mail" width="16" height="12">
+                <svg class="contact-link__icon-header-mail" width="16" height="12">
                   <use href="./images/symbol-defs.svg#header-icon1"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contact-item">
+            <li class="marker-list__contact-item">
               <a class="contact-link" href="tel:+380961111111">
-                <svg class="icon-header-mail" width="10" height="16">
+                <svg class="contact-link__icon-header-mail" width="10" height="16">
                   <use href="./images/symbol-defs.svg#header-icon2"></use>
                 </svg>
                 +38 096 111 11 11
